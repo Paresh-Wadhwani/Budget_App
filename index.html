@@ -66,6 +66,49 @@
 
 			</div>
 
+			<div class="row">
+
+				<div class="col-md-5">
+
+					<div class="expense-feedback alert alert-danger">
+						EXPENSE FEEDBACK
+					</div>
+
+					<form class="expense-form" id="expense-form">
+
+						<h5>Please Enter Your Expense</h5>
+
+						<div class="form-group">
+							<input type="text" class="form-control expense-input" id="expense-input">
+						</div>
+
+						<h5>Please Enter Expense Amount</h5>
+
+						<div class="form-group">
+							<input type="number" class="form-control expense-input" id="expense-amount-input">
+						</div>
+
+						<button type="submit" class="btn expense-submit" id="expense-submit">Add Expense</button>
+
+					</form>
+
+				</div>
+
+				<div class="col-md-7 my-3 expense-list" id="expense-list">
+
+					<ul class="expense-list__info d-flex justify-content-between">
+
+						<li class="list-item">Expense Title</li>
+						<li class="list-item">Expense Value</li>
+						<li class="list-item"></li>
+						
+					</ul>
+
+				</div>
+
+			</div>
+
+
 		</div>
 		
 		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
